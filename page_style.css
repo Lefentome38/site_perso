@@ -1,1 +1,33 @@
-body{}
+html { 
+    height: auto;
+    /* to remove bounce on some navigators */
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    flex-direction: row;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+menu{
+    width: 10%;
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    border-right: 1px solid black;
+}
+
+article{
+    margin-left: 15%;
+    width: auto;
+    height: auto;
+    border: solid red;
+}
+
