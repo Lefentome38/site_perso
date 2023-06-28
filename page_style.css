@@ -16,7 +16,7 @@ li, a{
     text-decoration: none;
 }
 
-menu{
+#container_navbar{
     width: 10%;
     height: 100%;
     overflow-y: scroll;
@@ -37,28 +37,31 @@ article{
 
 #article_html{}
 
-#article_html h2{}
-
-#article_html div{
-    border: dashed blue;
+#article_html h2,h3, #article_html ul{
+    text-align: center;
 }
 
-#article_html #boxtwo{
+#article_html div{}
+
+#article_html #container_box{
+    table-layout: fixed;
     display: flex;
     width: 100%;
 }
 
-#box_1{
+.box_1{
+    border: solid black 1px;
+    overflow: auto;
     width: 50%;
 }
 
-#box_2{
+.box_2{
+    border: solid black 1px;
+    overflow: auto;
     width: 50%;
 }
 
-#article_html #lien, ul{
-    display: flex;
-}
+#article_html #lien{}
 
 
 
