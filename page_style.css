@@ -31,3 +31,36 @@ article{
     border: solid red;
 }
 
+
+
+
+
+#article_html{}
+
+#article_html h2{}
+
+#article_html div{
+    border: dashed blue;
+}
+
+#article_html #boxtwo{
+    display: flex;
+    width: 100%;
+}
+
+#box_1{
+    width: 50%;
+}
+
+#box_2{
+    width: 50%;
+}
+
+#article_html #lien, ul{
+    display: flex;
+}
+
+
+
+
+
