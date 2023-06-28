@@ -28,13 +28,13 @@ article{
     margin-left: 15%;
     width: auto;
     height: auto;
-    border: solid red;
 }
 
 
 
 
 
+/*article de la page html*/
 #article_html{}
 
 #article_html h2,h3, #article_html ul{
@@ -55,14 +55,59 @@ article{
     width: 50%;
 }
 
+.box_1 ul{
+    margin-top: 10%;
+}
+
 .box_2{
     border: solid black 1px;
     overflow: auto;
     width: 50%;
 }
 
-#article_html #lien{}
+#article_html #lien, #article_html #lien ul{
+    justify-content: center;
+    display: flex;
+}
 
+
+/* fin de l'article (html)*/
+
+
+/*article de la page body*/
+
+#article_body{}
+
+#article_body h2,h3, #article_body ul{
+    text-align: center;
+}
+
+#article_body div{}
+
+#article_body #container_box{
+    table-layout: fixed;
+    display: flex;
+    width: 100%;
+}
+
+.box_1{
+    border: solid black 1px;
+    overflow: auto;
+    width: 50%;
+}
+
+.box_2{
+    border: solid black 1px;
+    overflow: auto;
+    width: 50%;
+}
+
+#article_body #lien, #article_body #lien ul{
+    justify-content: center;
+    display: flex;
+}
+
+/*fin de l'article (body)*/
 
 
 
